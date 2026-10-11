@@ -11,9 +11,7 @@ Ran commands in cmd to view CPU, memory, disk, and BIOS info.
 | -------- | --------                                                                | --------                                                        |
 | CPU      | 12th Gen Intel(R) Core(TM) i7-12700H  14             20                 | wmic cpu get Name, NumberOfCores, NumberOfLogicalProcessor      |
 | Memory   | 8589934592  Controller0-ChannelA-DIMM0  SK Hynix   3200  x2             | wmic memorychip get Capacity, Speed, DeviceLocator, Manufacturer|
-| Disk     | Fixed hard disk media  NVMe WD PC SN560 SDDPNQE-1T00-1002  1024203640320 Total free bytes                :    50,815,713,280 ( 47.3 GB)
-Total bytes                     : 1,023,454,212,096 (953.2 GB)
-Total quota free bytes          :    50,815,713,280 ( 47.3 GB)| wmic diskdrive get Model, MediaType, Size/fsutil volume diskfree C:|
+| Disk     | Fixed hard disk media  NVMe WD PC SN560 SDDPNQE-1T00-1002  1024203640320/ Total free bytes:    50,815,713,280 ( 47.3 GB)| wmic diskdrive get Model, MediaType, Size/fsutil volume diskfree C:|
 
 Steps, with commands in code blocks. Not prose about the steps.
 
