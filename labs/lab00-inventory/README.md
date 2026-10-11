@@ -44,6 +44,149 @@ OS Version:                10.0.22000 N/A Build 22000
 OS Manufacturer:           Microsoft Corporation
 OS Configuration:          Standalone Workstation
 OS Build Type:             Multiprocessor Free
+Registered Owner:          ASUS
+Registered Organization:
+Product ID:                00330-80000-00000-AA118
+Original Install Date:     05/09/2023, 13:44:00
+System Boot Time:          22/09/2026, 19:20:41
+System Manufacturer:       ASUSTeK COMPUTER INC.
+System Model:              ASUS TUF Gaming F15 FX507ZV4_FX507ZV4
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 154 Stepping 3 GenuineIntel ~2300 Mhz
+BIOS Version:              American Megatrends International, LLC. FX507ZV4.323, 29/08/2023
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             ru;Russian
+Input Locale:              ru;Russian
+Time Zone:                 (UTC+05:00) Qyzylorda
+Total Physical Memory:     16,011 MB
+Available Physical Memory: 3,694 MB
+Virtual Memory: Max Size:  29,835 MB
+Virtual Memory: Available: 10,414 MB
+Virtual Memory: In Use:    19,421 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\DESKTOP-OL1E58P
+Hotfix(s):                 7 Hotfix(s) Installed.
+                           [01]: KB5030650
+                           [02]: KB5029715
+                           [03]: KB5011048
+                           [04]: KB5011069
+                           [05]: KB5014869
+                           [06]: KB5031358
+                           [07]: KB5031591
+Network Card(s):           8 NIC(s) Installed.
+                           [01]: Realtek PCIe GbE Family Controller
+                                 Connection Name: Ethernet
+                                 Status:          Media disconnected
+                           [02]: WireGuard Tunnel
+                                 Connection Name: NordLynx
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 10.5.0.2
+                                 [02]: fe80::723e:7ca:789d:a5aa
+                           [03]: Bluetooth Device (Personal Area Network)
+                                 Connection Name: Сетевое подключение Bluetooth
+                                 Status:          Media disconnected
+                           [04]: Intel(R) Wi-Fi 6 AX201 160MHz
+                                 Connection Name: Беспроводная сеть 2
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.68.1
+                                 IP address(es)
+                                 [01]: 192.168.68.105
+                           [05]: Famatech Radmin VPN Ethernet Adapter
+                                 Connection Name: Radmin VPN
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 26.2.62.228
+                                 [02]: fe80::c941:296f:d333:5378
+                                 [03]: fdfd::1a02:3ee4
+                           [06]: OpenVPN Data Channel Offload
+                                 Connection Name: Подключение по локальной сети 2
+                                 Status:          Media disconnected
+                           [07]: TAP-NordVPN Windows Adapter V9
+                                 Connection Name: Подключение по локальной сети
+                                 Status:          Media disconnected
+                           [08]: OpenVPN Data Channel Offload
+                                 Connection Name: OpenVPN Data Channel Offload for NordVPN
+                                 Status:          Media disconnected
+Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.Host Name:                 DESKTOP-OL1E58P
+OS Name:                   Microsoft Windows 11 Pro
+OS Version:                10.0.22000 N/A Build 22000
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          ASUS
+Registered Organization:
+Product ID:                00330-80000-00000-AA118
+Original Install Date:     05/09/2023, 13:44:00
+System Boot Time:          22/09/2026, 19:20:41
+System Manufacturer:       ASUSTeK COMPUTER INC.
+System Model:              ASUS TUF Gaming F15 FX507ZV4_FX507ZV4
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 154 Stepping 3 GenuineIntel ~2300 Mhz
+BIOS Version:              American Megatrends International, LLC. FX507ZV4.323, 29/08/2023
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             ru;Russian
+Input Locale:              ru;Russian
+Time Zone:                 (UTC+05:00) Qyzylorda
+Total Physical Memory:     16,011 MB
+Available Physical Memory: 3,694 MB
+Virtual Memory: Max Size:  29,835 MB
+Virtual Memory: Available: 10,414 MB
+Virtual Memory: In Use:    19,421 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\DESKTOP-OL1E58P
+Hotfix(s):                 7 Hotfix(s) Installed.
+                           [01]: KB5030650
+                           [02]: KB5029715
+                           [03]: KB5011048
+                           [04]: KB5011069
+                           [05]: KB5014869
+                           [06]: KB5031358
+                           [07]: KB5031591
+Network Card(s):           8 NIC(s) Installed.
+                           [01]: Realtek PCIe GbE Family Controller
+                                 Connection Name: Ethernet
+                                 Status:          Media disconnected
+                           [02]: WireGuard Tunnel
+                                 Connection Name: NordLynx
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 10.5.0.2
+                                 [02]: fe80::723e:7ca:789d:a5aa
+                           [03]: Bluetooth Device (Personal Area Network)
+                                 Connection Name: Сетевое подключение Bluetooth
+                                 Status:          Media disconnected
+                           [04]: Intel(R) Wi-Fi 6 AX201 160MHz
+                                 Connection Name: Беспроводная сеть 2
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.68.1
+                                 IP address(es)
+                                 [01]: 192.168.68.105
+                           [05]: Famatech Radmin VPN Ethernet Adapter
+                                 Connection Name: Radmin VPN
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 26.2.62.228
+                                 [02]: fe80::c941:296f:d333:5378
+                                 [03]: fdfd::1a02:3ee4
+                           [06]: OpenVPN Data Channel Offload
+                                 Connection Name: Подключение по локальной сети 2
+                                 Status:          Media disconnected
+                           [07]: TAP-NordVPN Windows Adapter V9
+                                 Connection Name: Подключение по локальной сети
+                                 Status:          Media disconnected
+                           [08]: OpenVPN Data Channel Offload
+                                 Connection Name: OpenVPN Data Channel Offload for NordVPN
+                                 Status:          Media disconnected
+Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
 ```
 
 ## Result
