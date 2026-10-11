@@ -1,0 +1,2 @@
+MediaType              Model                               Size
+Fixed hard disk media  NVMe WD PC SN560 SDDPNQE-1T00-1002  1024203640320
