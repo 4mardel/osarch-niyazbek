@@ -13,7 +13,7 @@ Ran commands in cmd to view CPU, memory, disk, and BIOS info.
 | Memory   | 8589934592  Controller0-ChannelA-DIMM0  SK Hynix   3200  x2             | wmic memorychip get Capacity, Speed, DeviceLocator, Manufacturer|
 | Disk     | Fixed hard disk media  NVMe WD PC SN560 SDDPNQE-1T00-1002  1024203640320/ Total free bytes:    50,815,713,280 ( 47.3 GB)| wmic diskdrive get Model, MediaType, Size/fsutil volume diskfree C:|
 |Firmware  | American Megatrends International, LLC.  20230829000000.000000+000  FX507ZV4.323 | wmic bios get smbiosbiosversion, releasedate, manufacturer|
-|Virtualization| Enabled                                                              | systeminfo |
+|Virtualization| Enabled                                                              | Task Manager |
 
 
 ```
