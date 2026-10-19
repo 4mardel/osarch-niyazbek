@@ -14,7 +14,7 @@ Ran commands in cmd to view CPU, memory, disk, and BIOS info.
 | Disk     | Fixed hard disk media  NVMe WD PC SN560 SDDPNQE-1T00-1002  1024203640320/ Total free bytes:    50,815,713,280 ( 47.3 GB)| wmic diskdrive get Model, MediaType, Size/fsutil volume diskfree C:|
 |Firmware  | American Megatrends International, LLC.  20230829000000.000000+000  FX507ZV4.323 | wmic bios get smbiosbiosversion, releasedate, manufacturer|
 |Virtualization| Enabled                                                              | systeminfo |
-Steps, with commands in code blocks. Not prose about the steps.
+
 
 ```
 wmic cpu get Name, NumberOfCores, NumberOfLogicalProcessors
@@ -80,6 +80,8 @@ Hotfix(s):                 7 Hotfix(s) Installed.
                            [07]: KB5031591
 Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.Host Name:                 DESKTOP-OL1E58P
 ```
+## What did not work the first time
+I did not find the virtualization row in the command prompt; I found it through Task Manager.
 
 ## Result
 I found information on my hardware and firmware; virtualisation is enabled and present
