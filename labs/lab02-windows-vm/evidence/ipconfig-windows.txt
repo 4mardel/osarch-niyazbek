@@ -1,0 +1,10 @@
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::bfab:a14:ada9:a274%10
+   IPv4 Address. . . . . . . . . . . : 10.0.2.50
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 10.0.2.1
+
+
+

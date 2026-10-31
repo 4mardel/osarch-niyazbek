@@ -1,0 +1,7 @@
+enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 08:00:27:6c:20:65 brd ff:ff:ff:ff:ff:ff
+    altname enx0800276c2065
+    inet 10.0.2.5/24 metric 100 brd 10.0.2.255 scope global dynamic enp0s3
+       valid_lft 590sec preferred_lft 590sec
+    inet6 fe80::a00:27ff:fe6c:2065/64 scope link proto kernel_ll
+       valid_lft forever preferred_lft forever
