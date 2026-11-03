@@ -1,10 +1,10 @@
 # Operating System Architecture — build log
 
-**Student:**
-**Group:**
-**Host machine:**
+**Student:** Damir Niyazbek
+**Group:** CYB6-26
+**Host machine:** ASUS TUF Gaming F15
 **Hypervisor:**
-**Guest operating systems:**
+**Guest operating systems:** Ubuntu and Windows
 
 ## Labs
 
@@ -36,7 +36,7 @@
 
 ## Tool of the Week
 
-Week __ — `____` : [tools/____.md](tools/)
+Week 6 — `tldr` : [tools/tldr.md](tools/)
 
 ## Use of AI assistants
 
