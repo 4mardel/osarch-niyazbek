@@ -9,9 +9,22 @@ Date: 31.10.26
 3. Network mode: NAT Network (`NatNetwork`, 10.0.2.0/24), both guests. Why: both guests must see each other and the internet. Plain NAT gives each VM its own private router, so they could not see each other, and host-only has no internet. Bridged mode is often blocked on campus Wi-Fi.
 4. Ping Ubuntu → Windows timed out because Windows Defender Firewall blocks incoming ICMP echo requests by default, and the network profile was Public (the strictest). Fixed with: `New-NetFirewallRule -DisplayName "Allow ping in (ICMPv4)" -Protocol ICMPv4 -IcmpType 8 -Direction Inbound -Action Allow -Profile Any` (the firewall stays on). Windows also lost its DHCP lease (fell back to 169.254.129.232), so I gave it a static address, 10.0.2.50/24, gateway 10.0.2.1.
 5. Overcommitment: set 10 GB + 10 GB on a 16 GB host.
+6. Set the memory back after the experiment: Ubuntu 4 GB, Windows 4 GB
 
 ## Network diagram
-<diagram or image>
+
+```
+                      Internet
+                          |
+         Host laptop 192.168.68.102 (home Wi-Fi)
+                          |
+      [VirtualBox NAT Network "NatNetwork" · 10.0.2.0/24]
+      NAT: guests go out using the host's address · gateway 10.0.2.1
+                 /                          \
+        lab01-ubuntu                  lab02-windows
+        10.0.2.5 (DHCP)               10.0.2.50 (static)
+        Ubuntu Server 25.04           Windows 11 Enterprise eval
+```
 
 ## Result
 | | Before | After |

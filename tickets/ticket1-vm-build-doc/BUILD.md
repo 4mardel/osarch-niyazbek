@@ -117,7 +117,9 @@ Why: after this, the screen fits the window and you can copy and paste between t
 **Step 25. Create a NAT Network.** In VirtualBox Manager: File → Tools → Network Manager → NAT Networks → Create. Keep the name `NatNetwork`, the range `10.0.2.0/24`, and make sure **Enable DHCP** is ticked.
 
 **Step 26. For each machine: Settings → Network → Adapter 1 → Attached to: NAT Network, Name: NatNetwork.** Do this with the machine switched off.
+
 ![](evidence/03-network-adapter.png)
+
 Why NAT Network and not the other choices:
 - **NAT** gives each machine its own private router, so the two machines cannot see each other.
 - **Bridged** gives each machine its own address on the office network. Many networks (including the Innotech campus Wi-Fi) drop addresses they do not know, so the machine may get no connection at all.
