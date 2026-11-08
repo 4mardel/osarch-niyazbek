@@ -18,6 +18,7 @@ Free disk space on drive C, in GB:
 [math]::Round((Get-PSDrive C).Free / 1GB, 1)
 ```
 ![](screenshots/00-host-check.png)
+
 Why: two virtual machines run at the same time, and each one takes a share of the laptop's memory and disk. You need at least **16 GB of memory** and **100 GB of free disk space**. With 8 GB the laptop will become very slow. Drive C is where VirtualBox stores the machines by default.
 
 > Check: the first number is 16 or more, and the second is 100 or more. If a number is lower, do not continue: use another laptop or free up space first.
@@ -33,7 +34,7 @@ Why: the Windows evaluation image only exists for Intel/AMD processors (x64). On
 
 ## Part 1. Install the virtualisation program (VirtualBox)
 
-**Step 3. Download VirtualBox 7 from https://www.virtualbox.org/wiki/Downloads.
+**Step 3. Download VirtualBox 7 from https://www.virtualbox.org/wiki/Downloads.**
 ![](screenshots/01-virtualbox-download.png)
 Why VirtualBox: it is free for office use and works the same way on Windows, Mac and Linux. Do **not** download the "Extension Pack": it is under a different licence that is not free for company use, and this guide does not need it.
 
