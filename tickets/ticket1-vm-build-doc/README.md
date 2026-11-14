@@ -50,7 +50,7 @@
 | Setting | Default | Mine | Why |
 |---|---|---|---|
 | Windows memory / CPU | 4096 MB / 2 | 4096 MB / 5 | No more than half of the host's cores |
-| Ubuntu memory / CPU | 2048 MB / 1> | 2048-4096 MB / 2 | It runs more smoothly |
+| Ubuntu memory / CPU | 2048 MB / 1 | 2048-4096 MB / 4 | It runs more smoothly |
 | OpenSSH server | off | on | Lets me copy command output out of the guest as text |
 | Windows firewall | on | on, plus one rule allowing ping | The rule allows only ICMP echo; switching the firewall off would leave the whole machine open |
 | Windows address | DHCP | static 10.0.2.50/24 | See "What went wrong" |
