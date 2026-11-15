@@ -1,0 +1,4 @@
+# Evidence must be stored byte-for-byte: no CRLF<->LF conversion, no text diff.
+*.csv binary
+# Shell scripts must keep LF, or sh on Linux fails on the trailing CR ($'\r': command not found).
+*.sh text eol=lf
