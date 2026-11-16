@@ -42,7 +42,7 @@ Week 6 — `tldr` : [tools/tldr.md](tools/)
 
 | Assignment | Tool | What for |
 |------------|------|----------|
-| | | |
+| Lab 5-encoding | Claude code | Helped with README wording|
 
 > Declaring this costs nothing. Not declaring it, when it comes up at the
 > defence, costs the assignment.
