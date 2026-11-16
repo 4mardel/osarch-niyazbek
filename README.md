@@ -42,7 +42,7 @@ Week 6 — `tldr` : [tools/tldr.md](tools/)
 
 | Assignment | Tool | What for |
 |------------|------|----------|
-| Lab 5-encoding | Claude code | Helped with README wording|
+| Lab 5 | Claude Code (Opus 5.5) | Ran the file/xxd/iconv diagnosis with me, wrote scripts/fix.sh and the README draft, handled the git commit/push. I provided the file, did the first look in Excel/terminal/LibreOffice, took all screenshots, verified the fixed file in Excel, Calc and the terminal, and reviewed the write-up. |
 
 > Declaring this costs nothing. Not declaring it, when it comes up at the
 > defence, costs the assignment.
