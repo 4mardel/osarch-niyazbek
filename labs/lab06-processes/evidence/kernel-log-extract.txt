@@ -1,0 +1,26 @@
+Nov 17 14:56:54 lab01-ubuntu kernel:  x86_64_start_kernel+0x134/0x140
+Nov 17 14:56:54 lab01-ubuntu kernel:  common_startup_64+0x13e/0x141
+Nov 17 14:56:54 lab01-ubuntu kernel:  </TASK>
+Nov 17 14:58:22 lab01-ubuntu kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x140dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 17 14:58:22 lab01-ubuntu kernel: CPU: 3 UID: 1000 PID: 2388 Comm: stress-ng-vm Tainted: G             L      7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 17 14:58:22 lab01-ubuntu kernel: Tainted: [L]=SOFTLOCKUP
+Nov 17 14:58:22 lab01-ubuntu kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 17 14:58:22 lab01-ubuntu kernel: Call Trace:
+Nov 17 14:58:22 lab01-ubuntu kernel:  <TASK>
+Nov 17 14:58:22 lab01-ubuntu kernel:  show_stack+0x49/0x60
+Nov 17 14:58:22 lab01-ubuntu kernel:  dump_stack_lvl+0x5f/0x90
+Nov 17 14:58:22 lab01-ubuntu kernel:  dump_stack+0x10/0x18
+--
+Nov 17 14:58:22 lab01-ubuntu kernel: [   2388]  1000  2388   199496   167122   166812      292        18  1441792        0          1000 stress-ng-vm
+Nov 17 14:58:22 lab01-ubuntu kernel: [   2389]  1000  2389   199496   182991   182681      292        18  1564672        0          1000 stress-ng-vm
+Nov 17 14:58:22 lab01-ubuntu kernel: [   2404]  1000  2404     4028      986      306      680         0    69632        0             0 sleep
+Nov 17 14:58:22 lab01-ubuntu kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-3.scope,task=stress-ng-vm,pid=2389,uid=1000
+Nov 17 14:58:22 lab01-ubuntu kernel: Out of memory: Killed process 2389 (stress-ng-vm) total-vm:797984kB, anon-rss:730724kB, file-rss:1168kB, shmem-rss:72kB, UID:1000 pgtables:1528kB oom_score_adj:1000
+Nov 17 14:59:05 lab01-ubuntu kernel: watchdog: BUG: soft lockup - CPU#2 stuck for 37s! [stress-ng-vm:2405]
+Nov 17 14:59:11 lab01-ubuntu kernel: Modules linked in: intel_rapl_msr intel_rapl_common qrtr intel_uncore_frequency_common intel_pmc_core pmt_telemetry pmt_discovery pmt_class intel_pmc_ssram_telemetry intel_vsec nfnetlink cfg80211 rapl binfmt_misc snd_intel8x0 snd_ac97_codec ac97_bus snd_pcm vga16fb vgastate snd_timer vmwgfx drm_ttm_helper snd i2c_piix4 ttm soundcore i2c_smbus vboxguest raid1 joydev input_leds mac_hid sch_fq_codel efi_pstore dm_multipath vsock_loopback vmw_vsock_virtio_transport_common vmw_vsock_vmci_transport vsock vmw_vmci hid_generic usbhid ahci hid psmouse video libahci ghash_clmulni_intel e1000 wmi serio_raw pata_acpi msr dmi_sysfs autofs4 aesni_intel
+Nov 17 14:59:11 lab01-ubuntu kernel: CPU: 2 UID: 1000 PID: 2405 Comm: stress-ng-vm Tainted: G             L      7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 17 14:59:11 lab01-ubuntu kernel: Tainted: [L]=SOFTLOCKUP
+Nov 17 14:59:11 lab01-ubuntu kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 17 14:59:11 lab01-ubuntu kernel: RIP: 0033:0x6412c7a01976
+Nov 17 14:59:11 lab01-ubuntu kernel: Code: 05 49 8d 7e 04 41 88 4e 04 ff 15 3d 66 43 00 8d 4b 06 49 8d 7e 05 41 88 4e 05 ff 15 2c 66 43 00 8d 4b 07 41 88 4e 06 0f ae f0 <31> c9 41 38 5e ff 0f 95 c1 4c 01 f9 8d 53 01 41 38 16 0f 95 c2 0f
+Nov 17 14:59:11 lab01-ubuntu kernel: RSP: 002b:00007ffcea8a60b0 EFLAGS: 00010206
