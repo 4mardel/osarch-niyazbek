@@ -18,6 +18,7 @@ The "RAM clearance with CPU coolers" note does not apply: the stock Intel Lamina
 **Stand-ins used because PCPartPicker does not list the Kaspi model** (the same specification, so the check is unchanged):
 - Case: Zalman N5 TF → **Zalman i3 NEO** (both are ATX mid towers that take a Micro-ATX board).
 - Accountant monitor: Dell P2425H → **Dell P2422H** (the previous model: 23.8" 1920x1080 IPS; a monitor does not affect compatibility or the wattage estimate).
+- Web developer monitor: Xiaomi Redmi G27Q 2026 → **Acer Nitro XV272U W2bmiiprx** (also 27" 2560x1440; it is only there to complete the list, because a monitor does not affect compatibility or the wattage estimate).
 - Memory: Hiksemi HSC432U32B5 → a Kingston FURY Beast DDR4-3200 CL16 kit of the same size (2 x 16 GB; the developer has two kits).
 
 ## Parts to enter for each list
