@@ -23,7 +23,7 @@ DDR5 costs about **190,000 KZT more per 32 GB** than the DDR4 kit I chose. Acros
 - CPU socket LGA1700 ↔ board socket LGA1700.
 - Board memory type DDR4 ↔ DDR4-3200 modules. 3200 MT/s is also the i5-13400's DDR4 limit, so no XMP is needed.
 - The board's M.2 slot (PCIe 4.0 x4, 2280) ↔ Kingston NV3, which is M.2 2280 NVMe PCIe 4.0.
-- Power: the i5-13400 is a 65 W processor (154 W maximum turbo). The designer's RTX 3050 6 GB draws 70 W from the slot and needs no power cable. The highest-load machine draws roughly 300 W, which is well under 550 W. The PSU has the 24-pin and 8-pin CPU connectors the board needs.
+- Power: the i5-13400 is a 65 W processor (154 W maximum turbo). The designer's RTX 3050 6 GB draws 70 W from the slot and needs no power cable. PCPartPicker estimates 232 W (accountant) to 317 W (designer), well under 550 W (evidence/pcpartpicker-links.md). The PSU has the 24-pin and 8-pin CPU connectors the board needs.
 - Cooling: the BOX processor ships with the Intel Laminar RM1 (from Lab 3), at most 47 mm high, which fits the tower case.
 - Graphics: the i5-13400 has UHD Graphics 730, so three of the four machines need no graphics card. I avoided the cheaper "F" models, which have no graphics.
 
