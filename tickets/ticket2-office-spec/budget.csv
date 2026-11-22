@@ -5,11 +5,11 @@ accountant,Memory,2 x Kingston FURY Beast KF432C16BB/8WP DDR4-3200 8 GB (2 x 410
 accountant,SSD,Kingston NV3 SNV3S/1000G 1 TB NVMe M.2 2280,82300,https://kaspi.kz/shop/p/ssd-kingston-snv3s-1000g-1000-gb-123793481/,2026-11-22
 accountant,Case,Zalman N5 TF (ATX tower / takes mATX),28190,https://kaspi.kz/shop/p/zalman-n5-tf-chernyi-101110493/,2026-11-22
 accountant,Power supply,COUGAR GX-S550 550 W 80 PLUS Gold,35989,https://kaspi.kz/shop/p/cougar-gx-s550-550w-101576333/,2026-11-22
-accountant,Monitor,DELL P2425H 23.8in IPS 1920x1080 (height-adjustable),109707,https://kaspi.kz/shop/p/23-8-dell-p2425h-210-bmff-chernyi-120061629/,2026-11-22
+accountant,Monitor,DELL P2425H 23.8in IPS 1920x1080 (height-adjustable),109700,https://kaspi.kz/shop/p/23-8-dell-p2425h-210-bmff-chernyi-120061629/,2026-11-22
 accountant,Operating system,Microsoft Windows 11 Pro 64-bit OEM DVD (FQC-10547),46800,https://kaspi.kz/shop/p/microsoft-windows-11-pro-64-bit-129147155/,2026-11-22
 accountant,Keyboard and mouse,Logitech Wireless Combo MK270,15440,https://kaspi.kz/shop/p/logitech-wireless-combo-mk270-chernyi-9200101/,2026-11-22
 accountant,UPS,APC Easy Back-UPS BV800I-GR 800 VA,42173,https://kaspi.kz/shop/p/istochnik-bespereboinogo-pitanija-apc-by-schneider-electric-apc-easy-back-ups-bv800i-gr-5400812/,2026-11-22
-accountant,TOTAL,,592678,,2026-11-22
+accountant,TOTAL,,592671,,2026-11-22
 sales,CPU,Intel Core i5-13400 BOX (Laminar RM1 cooler in the box),89189,https://kaspi.kz/shop/p/intel-core-i5-13400-box-108431157/,2026-11-22
 sales,Motherboard,GIGABYTE B760M DS3H DDR4 (LGA1700 / 4x DDR4 / 2x M.2),60890,https://kaspi.kz/shop/p/gigabyte-b760m-ds3h-ddr4-108631106/,2026-11-22
 sales,Memory,Hiksemi HSC432U32B5 DDR4-3200 2 x 16 GB = 32 GB,137088,https://kaspi.kz/shop/p/hiksemi-hsc432u32b5-32-gb-177390792/,2026-11-22
@@ -26,10 +26,10 @@ webdev,Memory,2 kits x Hiksemi HSC432U32B5 DDR4-3200 2 x 16 GB (2 x 137088) = 64
 webdev,SSD,Kingston NV3 SNV3S/1000G 1 TB NVMe M.2 2280,82300,https://kaspi.kz/shop/p/ssd-kingston-snv3s-1000g-1000-gb-123793481/,2026-11-22
 webdev,Case,Zalman N5 TF (ATX tower / takes mATX),28190,https://kaspi.kz/shop/p/zalman-n5-tf-chernyi-101110493/,2026-11-22
 webdev,Power supply,COUGAR GX-S550 550 W 80 PLUS Gold,35989,https://kaspi.kz/shop/p/cougar-gx-s550-550w-101576333/,2026-11-22
-webdev,Monitor,Xiaomi Redmi G27Q 2026 P27QDB-RG 27in 2560x1440,87400,https://kaspi.kz/shop/p/27-xiaomi-redmi-g27q-2026-p27qdb-rg-chernyi-149669680/,2026-11-22
+webdev,Monitor,Xiaomi Redmi G27Q 2026 P27QDB-RG 27in 2560x1440,87393,https://kaspi.kz/shop/p/27-xiaomi-redmi-g27q-2026-p27qdb-rg-chernyi-149669680/,2026-11-22
 webdev,Operating system,Microsoft Windows 11 Pro 64-bit OEM DVD (FQC-10547),46800,https://kaspi.kz/shop/p/microsoft-windows-11-pro-64-bit-129147155/,2026-11-22
 webdev,Keyboard and mouse,Logitech Wireless Combo MK270,15440,https://kaspi.kz/shop/p/logitech-wireless-combo-mk270-chernyi-9200101/,2026-11-22
-webdev,TOTAL,,720374,,2026-11-22
+webdev,TOTAL,,720367,,2026-11-22
 designer,CPU,Intel Core i5-13400 BOX (Laminar RM1 cooler in the box),89189,https://kaspi.kz/shop/p/intel-core-i5-13400-box-108431157/,2026-11-22
 designer,Motherboard,GIGABYTE B760M DS3H DDR4 (LGA1700 / 4x DDR4 / 2x M.2),60890,https://kaspi.kz/shop/p/gigabyte-b760m-ds3h-ddr4-108631106/,2026-11-22
 designer,Memory,Hiksemi HSC432U32B5 DDR4-3200 2 x 16 GB = 32 GB,137088,https://kaspi.kz/shop/p/hiksemi-hsc432u32b5-32-gb-177390792/,2026-11-22
@@ -41,4 +41,4 @@ designer,Monitor,ASUS ProArt PA278QV 27in IPS 2560x1440 100% sRGB factory-calibr
 designer,Operating system,Microsoft Windows 11 Pro 64-bit OEM DVD (FQC-10547),46800,https://kaspi.kz/shop/p/microsoft-windows-11-pro-64-bit-129147155/,2026-11-22
 designer,Keyboard and mouse,Logitech Wireless Combo MK270,15440,https://kaspi.kz/shop/p/logitech-wireless-combo-mk270-chernyi-9200101/,2026-11-22
 designer,TOTAL,,855636,,2026-11-22
-all,GRAND TOTAL (budget 3000000 / reserve 274227),,2725773,,2026-11-22
+all,GRAND TOTAL (budget 3000000 / reserve 274241),,2725759,,2026-11-22

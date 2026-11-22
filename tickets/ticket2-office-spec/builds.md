@@ -37,7 +37,7 @@ DDR5 costs about **190,000 KZT more per 32 GB** than the DDR4 kit I chose. Acros
 
 **Trade-off:** I kept the minimum 16 GB (2 x 8 GB, so it runs in dual channel) instead of 32 GB, and spent the money on a **height-adjustable Dell P2425H** (an office monitor with a 3-year warranty) and an **APC BV800I UPS**, which gives several minutes to save and shut down. The alternative I did not take was 32 GB of memory for about 55,000 KZT more. The accountant's workload never fills 16 GB, and two DIMM slots stay free if it ever does.
 
-**Total:** 592,678 KZT (budget.csv, rows 2–12)
+**Total:** 592,671 KZT (budget.csv, rows 2–12)
 
 ---
 
@@ -59,9 +59,9 @@ DDR5 costs about **190,000 KZT more per 32 GB** than the DDR4 kit I chose. Acros
 
 **Bottleneck:** **memory, again, and much more of it.** WSL2 by default reserves up to half of the RAM for its Linux VM. Each database container wants 1–2 GB, each browser with DevTools 2–3 GB, and a test VM 4 GB (Ticket 1). Adding it up: Windows 3 + WSL2/Docker 8–12 + browsers 6–8 + VS Code 1–2 + a VM 4 = **22–29 GB**. That is above 16 GB and too close to 32 GB once the VM starts. The CPU matters only during builds, and 10 cores / 16 threads finish an `npm run build` or a `docker build` in seconds to minutes. Storage speed matters for container images, and NVMe already covers it.
 
-**Trade-off:** **64 GB** (two 2 x 16 GB kits, all four slots), at 274,176 KZT the most expensive part of any build. To pay for it, I kept the same i5-13400 as everyone else instead of an i5-14600K/i7, and chose a 27" 1440p gaming-line monitor (Redmi G27Q, 87,400 KZT) instead of a business monitor. 1440p gives more lines of code on screen, and that is what a developer needs from a monitor. The alternative I did not take was 64 GB of DDR5 on AM5 (884,903 KZT for the memory alone), which would have used up almost a third of the whole budget. The downside of my choice: all four memory slots are full, so the next memory upgrade means replacing modules, not adding them.
+**Trade-off:** **64 GB** (two 2 x 16 GB kits, all four slots), at 274,176 KZT the most expensive part of any build. To pay for it, I kept the same i5-13400 as everyone else instead of an i5-14600K/i7, and chose a 27" 1440p gaming-line monitor (Redmi G27Q, 87,393 KZT) instead of a business monitor. 1440p gives more lines of code on screen, and that is what a developer needs from a monitor. The alternative I did not take was 64 GB of DDR5 on AM5 (884,903 KZT for the memory alone), which would have used up almost a third of the whole budget. The downside of my choice: all four memory slots are full, so the next memory upgrade means replacing modules, not adding them.
 
-**Total:** 720,374 KZT (budget.csv, rows 23–32)
+**Total:** 720,367 KZT (budget.csv, rows 23–32)
 
 ---
 
@@ -71,7 +71,7 @@ DDR5 costs about **190,000 KZT more per 32 GB** than the DDR4 kit I chose. Acros
 
 **Bottleneck:** **the monitor first, then memory.** If the colours on screen are wrong, every print job and every brand colour is wrong, and no amount of CPU fixes that. So the monitor is the one part I did not save on: an **ASUS ProArt PA278QV**, a 27" IPS 2560x1440 panel covering 100% sRGB, factory-calibrated (ΔE < 2). Second comes memory: Photoshop keeps its history states and its scratch data in RAM, so with a 2 GB file 16 GB fills up fast. Third is the GPU. Photoshop and Illustrator use it for canvas acceleration and some filters, and Premiere for playback and export, but they do not need a gaming card.
 
-**Trade-off:** 32 GB of memory and an entry-level **RTX 3050 6 GB** (171,000 KZT, 70 W, no extra power cable). The alternative I did not take was an RTX 5060 8 GB (300,000 KZT), which is roughly twice as fast in Premiere. Taking it would have meant either a cheaper monitor or less memory, and the monitor is the bottleneck. The 274,227 KZT that is left unspent in the budget is enough to buy the RTX 5060 later without any other change (see README, question 1).
+**Trade-off:** 32 GB of memory and an entry-level **RTX 3050 6 GB** (171,000 KZT, 70 W, no extra power cable). The alternative I did not take was an RTX 5060 8 GB (300,000 KZT), which is roughly twice as fast in Premiere. Taking it would have meant either a cheaper monitor or less memory, and the monitor is the bottleneck. The 274,241 KZT that is left unspent in the budget is enough to buy the RTX 5060 later without any other change (see README, question 1).
 
 **Total:** 855,636 KZT (budget.csv, rows 33–43)
 
@@ -81,10 +81,10 @@ DDR5 costs about **190,000 KZT more per 32 GB** than the DDR4 kit I chose. Acros
 
 | Role | Memory | Monitor | GPU | Extra | Total, KZT |
 |---|---|---|---|---|---|
-| Accountant | 16 GB | Dell P2425H 24" adjustable | built-in | UPS | 592,678 |
+| Accountant | 16 GB | Dell P2425H 24" adjustable | built-in | UPS | 592,671 |
 | Sales manager | 32 GB | Philips 24" IPS | built-in | — | 557,085 |
-| Web developer | 64 GB | Redmi 27" 1440p | built-in | — | 720,374 |
+| Web developer | 64 GB | Redmi 27" 1440p | built-in | — | 720,367 |
 | Designer | 32 GB | ASUS ProArt 27" 1440p 100% sRGB | RTX 3050 6 GB | — | 855,636 |
-| **Grand total** | | | | | **2,725,773** of 3,000,000 |
+| **Grand total** | | | | | **2,725,759** of 3,000,000 |
 
-The remaining **274,227 KZT (9%)** is not spent. It covers price changes before purchase (the guide warns that memory and SSD prices in Kazakhstan move within a month, and the same 32 GB of memory already ranges from 137,088 to 233,599 KZT between Kaspi sellers), delivery and assembly, and the designer's GPU upgrade later.
+The remaining **274,241 KZT (9%)** is not spent. It covers price changes before purchase (the guide warns that memory and SSD prices in Kazakhstan move within a month, and the same 32 GB of memory already ranges from 137,088 to 233,599 KZT between Kaspi sellers), delivery and assembly, and the designer's GPU upgrade later.

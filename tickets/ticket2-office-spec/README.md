@@ -37,7 +37,7 @@ To make four identical machines good enough for the designer and the developer, 
 
 | Question I would ask | What I assumed |
 |---|---|
-| Does "3,000,000 for everything" include Windows, keyboards, mice and assembly? | Yes, all of it is inside the 3,000,000. Assembly I do myself, and the unspent 274,227 KZT covers delivery or a paid assembly if needed. |
+| Does "3,000,000 for everything" include Windows, keyboards, mice and assembly? | Yes, all of it is inside the 3,000,000. Assembly I do myself, and the unspent 274,241 KZT covers delivery or a paid assembly if needed. |
 | How many years is "a few"? | 4–5 years. That is why every machine has room to add memory and a second SSD. |
 | Which programs does each person use? Is 1C used? | 1C:Accounting on Windows for the accountant; a browser CRM and Zoom/Meet for sales; VS Code + Docker + several browsers for the developer; Adobe Photoshop/Illustrator plus light Premiere video for the designer. |
 | Does the developer need Linux, or is Windows fine? | Windows 11 Pro with WSL2 for Docker, so all four machines run the same OS. The developer can still test in Edge, which a Linux machine could not do. |
@@ -55,16 +55,16 @@ To make four identical machines good enough for the designer and the developer, 
 
 | Role | Total, KZT | budget.csv rows |
 |---|---|---|
-| Accountant | 592,678 | 2–12 |
+| Accountant | 592,671 | 2–12 |
 | Sales manager | 557,085 | 13–22 |
-| Web developer | 720,374 | 23–32 |
+| Web developer | 720,367 | 23–32 |
 | Designer | 855,636 | 33–43 |
-| **Grand total (monitors, Windows, keyboards and mice included)** | **2,725,773** | 44 |
-| Left in the budget | 274,227 | |
+| **Grand total (monitors, Windows, keyboards and mice included)** | **2,725,759** | 44 |
+| Left in the budget | 274,241 | |
 
 ### Question 1 — Which machine do I upgrade first, in 18 months, and why?
 
-**The designer's graphics card.** I deliberately bought an RTX 3050 6 GB, an entry-level card, so I could afford the ProArt monitor and 32 GB of memory. If the designer does more video (and companies usually ask for more video over time, not less), the 6 GB of video memory and the 3050's speed will be the first limit, in Premiere previews and exports. The upgrade is an RTX 5060-class card (300,000 KZT today, probably less in 18 months). It drops into the same PCIe x16 slot, and the 550 W supply has enough power for its 145 W. Before buying, I must check that the supply has a PCIe 8-pin cable. The unspent 274,227 KZT is roughly that amount. Second in line is the accountant's memory, from 16 GB to 32 GB: two DIMM slots are free, so it means adding modules, not replacing them.
+**The designer's graphics card.** I deliberately bought an RTX 3050 6 GB, an entry-level card, so I could afford the ProArt monitor and 32 GB of memory. If the designer does more video (and companies usually ask for more video over time, not less), the 6 GB of video memory and the 3050's speed will be the first limit, in Premiere previews and exports. The upgrade is an RTX 5060-class card (300,000 KZT today, probably less in 18 months). It drops into the same PCIe x16 slot, and the 550 W supply has enough power for its 145 W. Before buying, I must check that the supply has a PCIe 8-pin cable. The unspent 274,241 KZT is roughly that amount. Second in line is the accountant's memory, from 16 GB to 32 GB: two DIMM slots are free, so it means adding modules, not replacing them.
 
 ### Question 2 — The same four as pre-built machines
 
@@ -92,7 +92,7 @@ I priced pre-built system units with the same or similar CPU, memory, SSD and Wi
 
 | File | What it proves |
 |---|---|
-| [budget.csv](budget.csv) | Every part with its price in KZT, the Kaspi.kz product link and the date (2026-11-22); a total per role and a grand total of 2,725,773 ≤ 3,000,000 |
+| [budget.csv](budget.csv) | Every part with its price in KZT, the Kaspi.kz product link and the date (2026-11-22); a total per role and a grand total of 2,725,759 ≤ 3,000,000 |
 | [prebuilt.csv](prebuilt.csv) | Pre-built prices for question 2, with links and the date |
 | [builds.md](builds.md) | Load · Bottleneck · Trade-off · Total for each of the four machines, the platform decision and the compatibility checks |
 | [evidence/pcpartpicker-links.md](evidence/pcpartpicker-links.md) | One PCPartPicker list per build. PCPartPicker does not price in tenge; I used it only to check compatibility (socket, memory, M.2) and the estimated power draw |
